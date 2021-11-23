@@ -1,0 +1,128 @@
+html, body {
+  padding-top: 4em;
+  text-align: center;;
+  width: 95%;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url(../fonts/Roboto-Thin.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'roboto'
+  src: url(../fonts/Roboto-Black.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'roboto'
+  src: url(../fonts/Roboto-ThinItalic.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 300%;
+}
+
+h2 {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 250%;
+}
+
+h3 {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 200%;
+}
+
+p {
+  font-family: roboto;
+  font-weight: 100;
+  font-size: 150%;
+}
+
+a {
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 150%;
+}
+
+.container {
+  display: flex;
+}
+
+.main-content {
+  padding-top: 15rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 15rem;
+  flex-direction: column;
+}
+
+.main-content img {
+  width: 25rem;
+  height: 30rem;
+}
+
+.content-left-to-right {
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  flex-direction: row;
+  background-color: #1C2833;
+  color: #F4F6F7;
+}
+
+.content-left-to-right h3 {
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+}
+
+.content-right-to-left {
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  flex-direction: row-reverse;
+}
+
+.content-right-to-left h3 {
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+}
+
+.inner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
